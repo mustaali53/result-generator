@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(171, 233, 233);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkcyan ;
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    border-radius: 2%;
+}
+
+.inputs {
+    display: grid;
+    position: absolute;
+    top: 15%;
+    left: 32%; 
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+    
+}
+ 
+.math , .comp, .phy, .eng {
+    padding: 5%;
+    width: 120%;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 3px solid rgb(65, 62, 62);
+    font-family: sans-serif;
+    font-weight: 900;
+    
+}
+
+.btn{
+    background-color: transparent;
+    position: absolute;
+    top: 78%;
+    left: 41%;
+    padding: 10px;
+    font-weight: 900;
+    font-family: sans-serif;
+    border-radius: 5%;
+    border: none;
+    transition: 1s ease;
+    
+}
+
+.answer{
+    font-weight: 700;
+    position: absolute;
+    top: 90%;
+    text-align: center;
+
+}
+
+.header{
+    position: absolute;
+    top: 2%;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(65, 62, 62);
+    color: white;
+}

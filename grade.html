@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="./grade.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">CHECK YOUR RESULT STATUS</h1>
+        <div class="inputs">
+        <input type="text" class="math" id="math" value="" placeholder="Maths marks" required> 
+        <input type="text" class="comp" id="comp" value="" placeholder="Computer marks" required>
+        <input type="text" class="phy" id="phy" value="" placeholder="Physics marks" required>
+        <input type="text" class="eng" id="eng" value="" placeholder="English marks" required>
+        
+    </div>
+    <input onclick = "show()" type="button" class="btn" name="register" id="btn" value="SHOW RESULT">
+    <p id="answer" class="answer"></p>
+    </div>
+    <script src="./grade.js"></script>
+</body>
+</html>
